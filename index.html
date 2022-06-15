@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/img/favicon.svg?" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pass-gen</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <div class="container">
+          <h1 class="password" id="password"></h1>
+          <div class="actions">
+            <button class="copy" id="copy" onclick="copy()">
+              <svg id="copy" data-name="copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                <path
+                  id="path"
+                  class="path"
+                  d="M22.42,5.43,18.57,1.58A2,2,0,0,0,17.17,1h-6.3A4.24,4.24,0,0,0,6.64,5.23v.28H5.23A4.24,4.24,0,0,0,1,9.74v9A4.24,4.24,0,0,0,5.23,23h7.9a4.24,4.24,0,0,0,4.23-4.23v-.28h1.41A4.24,4.24,0,0,0,23,14.26V6.83A2,2,0,0,0,22.42,5.43ZM18.49,3.89l1.62,1.62h-.42a1.19,1.19,0,0,1-1.2-1.2ZM15.67,18.77a2.54,2.54,0,0,1-2.54,2.54H5.23a2.54,2.54,0,0,1-2.54-2.54v-9A2.54,2.54,0,0,1,5.23,7.21H6.64v7.05a4.24,4.24,0,0,0,4.23,4.23h4.8Zm3.1-2h-7.9a2.54,2.54,0,0,1-2.54-2.53v-9a2.54,2.54,0,0,1,2.54-2.54h5.92V4.31a2.92,2.92,0,0,0,2.9,2.9h1.62v7.05A2.54,2.54,0,0,1,18.77,16.79Z"
+                  transform="translate(-1 -1)"
+                />
+              </svg>
+            </button>
+            <button class="refresh" id="refresh" onclick="generator()">
+              <svg id="refresh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.5 20.5">
+                <g id="group">
+                  <path
+                    id="path"
+                    class="path"
+                    d="M20.52,12a8.75,8.75,0,0,0-8.75-8.75,8.85,8.85,0,0,0-3.35.66,9.11,9.11,0,0,0-1.51.81A8.71,8.71,0,0,0,4.49,7.14M3,12a8.75,8.75,0,0,0,8.75,8.75h0a8.85,8.85,0,0,0,3.35-.66,9.11,9.11,0,0,0,1.51-.81,8.71,8.71,0,0,0,2.42-2.42"
+                    transform="translate(-1.52 -1.75)"
+                  />
+                  <path
+                    id="path-2"
+                    data-name="path"
+                    class="cls-1"
+                    d="M20.52,4.22V12"
+                    transform="translate(-1.52 -1.75)"
+                  />
+                  <path id="path-3" data-name="path" class="cls-1" d="M3,12v7.78" transform="translate(-1.52 -1.75)" />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
